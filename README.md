@@ -1,54 +1,125 @@
-<header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Los Vagos RolePlay - MTA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+    }
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #b30000;
+    }
 
-# GitHub Pages
+    header h1 {
+      color: #ffd700;
+      font-size: 3em;
+      margin: 0;
+    }
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    header p {
+      color: #ff4d4d;
+      font-size: 1.2em;
+    }
 
-</header>
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #2a2a2a;
+      padding: 10px 0;
+    }
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+    nav a {
+      margin: 0 20px;
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
 
-## Step 1: Enable GitHub Pages
+    nav a:hover {
+      color: #ffd700;
+    }
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+    h2 {
+      color: #ffd700;
+      margin-bottom: 15px;
+    }
 
-### :keyboard: Activity: Enable GitHub Pages
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #777;
+      margin-top: 30px;
+    }
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+    a.link {
+      color: #ff4d4d;
+    }
+  </style>
+</head>
+<body>
 
-<footer>
+  <header>
+    <h1>Los Vagos RolePlay</h1>
+    <p>Ciudad Moderna Dominicana en los Estados Unidos - MTA RP</p>
+  </header>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#staff">Staff</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#youtube">YouTube</a>
+  </nav>
 
----
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenido a <strong>Los Vagos   RolePlay</strong>, ¿Estás buscando un servidor de roleplay con un ambiente maduro, dinámico y de alta calidad? ¡Únete a Los Vagós, un servidor basado en la República Dominicana!
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Ya seas nuevo en el roleplay o un veterano con experiencia, aquí encontrarás el espacio perfecto para desarrollarte, interactuar con otros jugadores apasionados y formar parte de una comunidad en constante crecimiento.
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+¡No esperes más! Ven y sé parte de esta experiencia inolvidable en Los Vagós, donde tus ideas y creatividad son lo más importante.</p>
+  </section>
 
-</footer>
+  <section id="staff">
+    <h2>Staff</h2>
+    <ul>
+      <li><strong>Fundador:</strong> MrCero</li>
+      <li><strong>Administrador:</strong> MrKing</li>
+      <li><strong>Soporte:</strong> MrAlber</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Únete a nuestra comunidad en Discord para soporte y noticias:</p>
+    <p><a class="link" href="https://discord.gg/V6EYsCDncH" target="_blank">discord.gg/V6EYsCDncH</a></p>
+  </section>
+
+  <section id="youtube">
+    <h2>YouTube</h2>
+    <p>Pronto lanzaremos contenido exclusivo en nuestro canal oficial. ¡Síguenos para no perderte nada!</p>
+    <p><a class="link" href="https://youtube.com/@mrcerofa?si=TKWrBBiFFNJYylNg" target="_blank">Visitar canal de YouTube de Los Vagos Roleplay</a></p>
+  </section>
+
+  <footer>
+    <p>Los Vagos RP © 2025 - Todos los derechos a MrCero</p>
+  </footer>
+
+</body>
+</html>
